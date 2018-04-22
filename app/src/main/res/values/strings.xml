@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_label">Appmosphere</string>
+    <string name="intro_text">What kind of atmosphere would you like to create around yourself?</string>
+    <!-- Category name for the nature activity -->
+    <string name="category_nature">Nature sounds</string>
+    <!-- Category name for the city activity  -->
+    <string name="category_city">City sounds</string>
+    <!-- Category name for the fiction activity  -->
+    <string name="category_fiction">Fiction</string>
+    <string name="current_song_intro">Now playing:</string>
+</resources>

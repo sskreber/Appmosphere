@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainBackground"
+    android:orientation="vertical"
+    tools:context="com.example.android.appmosphere.MainActivity">
+
+    <TextView
+        android:id="@+id/intro_text"
+        style="@style/IntroStyle"
+        android:background="@color/mainBackground"
+        android:text="@string/intro_text" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Image source: "Windy night" by gnz @nature.ambient-mixer.com -->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/nature" />
+
+        <TextView
+            android:id="@+id/nature"
+            style="@style/MoodCategory"
+            android:background="@color/category_nature"
+            android:text="@string/category_nature" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Image source: "Victorian London" by DuruAntilles @nature.ambient-mixer.com -->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/city" />
+
+        <TextView
+            android:id="@+id/city"
+            style="@style/MoodCategory"
+            android:background="@color/category_city"
+            android:text="@string/category_city" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Image source: "Fantasy orc camp" by curtcurt55 @nature.ambient-mixer.com -->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/fiction" />
+
+        <TextView
+            android:id="@+id/fiction"
+            style="@style/MoodCategory"
+            android:background="@color/category_fiction"
+            android:text="@string/category_fiction" />
+    </LinearLayout>
+
+</LinearLayout>

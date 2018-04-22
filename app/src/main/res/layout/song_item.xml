@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainBackground"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/authorName_text_view"
+        style="@style/Playlist"
+        android:paddingTop="@dimen/padding_top_text_view"
+        tools:text="author name" />
+
+    <TextView
+        android:id="@+id/songTitle_text_view"
+        style="@style/Playlist"
+        android:textStyle="italic"
+        tools:text="song title"
+        android:scrollHorizontally="true"/>
+
+</LinearLayout>

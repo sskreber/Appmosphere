@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_horizontal">
+
+        <ImageView
+            style="@style/CurrentlyPlaying"
+            android:layout_height="@dimen/image_size"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bridge" />
+
+        <TextView
+            style="@style/CurrentlyPlaying"
+            android:text="@string/current_song_intro"
+            android:textAllCaps="true"
+            android:textColor="@color/colorRed"
+            android:textSize="@dimen/title_textsize"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/current_author"
+            style="@style/CurrentlyPlaying"
+            tools:text="author_name" />
+
+        <TextView
+            android:id="@+id/current_song"
+            style="@style/CurrentlyPlaying"
+            android:textStyle="italic"
+            tools:text="song_title" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="@dimen/padding_horizontal">
+
+            <!-- Stop icon made by " Smashicons" at www.flaticon.com -->
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/padding_horizontal"
+                android:src="@drawable/icon_stop" />
+
+            <!-- Play icon made by "Freepik" at www.flaticon.com -->
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/padding_horizontal"
+                android:src="@drawable/icon_play" />
+
+        </LinearLayout>
+
+        <!-- Return ("left-arrow") icon made by " Smashicons" at www.flaticon.com -->
+        <ImageButton
+            android:id="@+id/button_return_to_category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="@dimen/padding_horizontal"
+            android:src="@drawable/icon_return" />
+    </LinearLayout>
+
+</ScrollView>

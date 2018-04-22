@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="song_item_height">70dp</dimen>
+    <dimen name="padding_horizontal">20dp</dimen>
+    <dimen name="padding_vertical">22dp</dimen>
+    <dimen name="padding_top_text_view">15dp</dimen>
+    <dimen name="image_size">200dp</dimen>
+    <dimen name="title_textsize">20sp</dimen>
+</resources>

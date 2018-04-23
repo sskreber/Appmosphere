@@ -60,14 +60,28 @@
 
         </LinearLayout>
 
-        <!-- Return ("left-arrow") icon made by " Smashicons" at www.flaticon.com -->
-        <ImageButton
-            android:id="@+id/button_return_to_category"
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:padding="@dimen/padding_horizontal"
-            android:src="@drawable/icon_return" />
+            android:orientation="horizontal">
+
+            <!-- Return ("left-arrow") icon made by " Smashicons" at www.flaticon.com -->
+            <ImageButton
+                android:id="@+id/button_return_to_category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:padding="@dimen/padding_horizontal"
+                android:src="@drawable/icon_return" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/button_return_to_menu"
+                android:textColor="@color/colorOrange"
+                android:textSize="@dimen/very_small_textsize" />
+        </LinearLayout>
     </LinearLayout>
 
 </ScrollView>

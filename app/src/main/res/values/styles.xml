@@ -6,9 +6,6 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
-        <item name="android:windowFullscreen">true</item>
     </style>
 
     <style name="IntroStyle">
@@ -17,9 +14,9 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:gravity">center_vertical</item>
         <item name="android:textStyle">italic</item>
-        <item name="android:padding">25dp</item>
-        <item name="android:textColor">#ECEFF1</item>
-        <item name="android:textSize">25sp</item>
+        <item name="android:padding">@dimen/padding_big</item>
+        <item name="android:textColor">@color/darkerWhitishGray</item>
+        <item name="android:textSize">@dimen/big_textsize</item>
     </style>
 
     <style name="MoodCategory">
@@ -28,27 +25,26 @@
         <item name="android:layout_height">@dimen/song_item_height</item>
         <item name="android:gravity">center_vertical</item>
         <item name="android:textStyle">bold</item>
-        <item name="android:padding">20dp</item>
-        <item name="android:textColor">#EEEEEE</item>
-        <item name="android:textSize">20sp</item>
+        <item name="android:padding">@dimen/padding_standard</item>
+        <item name="android:textColor">@color/whitishGray</item>
+        <item name="android:textSize">@dimen/middle_textsize</item>
     </style>
 
     <style name="Playlist" parent="MoodCategory">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:paddingLeft">15dp</item>
-        <item name="android:paddingRight">15dp</item>
-        <item name="android:textSize">18sp</item>
+        <item name="android:paddingLeft">@dimen/padding_small</item>
+        <item name="android:paddingRight">@dimen/padding_small</item>
+        <item name="android:textSize">@dimen/small_textsize</item>
     </style>
 
     <style name="CurrentlyPlaying">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:textColor">#EEEEEE</item>
+        <item name="android:textColor">@color/whitishGray</item>
         <item name="android:padding">@dimen/padding_horizontal</item>
         <item name="android:gravity">center_horizontal</item>
-        <item name="android:textSize">18sp</item>
-
+        <item name="android:textSize">@dimen/small_textsize</item>
     </style>
 
 </resources>

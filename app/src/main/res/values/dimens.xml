@@ -4,6 +4,13 @@
     <dimen name="padding_horizontal">20dp</dimen>
     <dimen name="padding_vertical">22dp</dimen>
     <dimen name="padding_top_text_view">15dp</dimen>
+    <dimen name="padding_small">15dp</dimen>
+    <dimen name="padding_standard">20dp</dimen>
+    <dimen name="padding_big">25dp</dimen>
     <dimen name="image_size">200dp</dimen>
     <dimen name="title_textsize">20sp</dimen>
+    <dimen name="very_small_textsize">14sp</dimen>
+    <dimen name="small_textsize">18sp</dimen>
+    <dimen name="middle_textsize">20sp</dimen>
+    <dimen name="big_textsize">25sp</dimen>
 </resources>

@@ -12,14 +12,22 @@
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".NatureActivity" />
-        <activity android:name=".CityActivity" />
-        <activity android:name=".FictionActivity" />
-        <activity android:name=".CurrentSongActivity"></activity>
+        <activity
+            android:name=".NatureActivity"
+            android:label="@string/nature_activity_label" />
+        <activity
+            android:name=".CityActivity"
+            android:label="@string/city_activity_label" />
+        <activity
+            android:name=".FictionActivity"
+            android:label="@string/fiction_activity_label" />
+        <activity
+            android:name=".CurrentSongActivity"
+            android:label="@string/current_song_activity_label" />
+
     </application>
 
 </manifest>

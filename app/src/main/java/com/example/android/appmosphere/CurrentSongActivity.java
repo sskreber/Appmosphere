@@ -1,8 +1,10 @@
 package com.example.android.appmosphere;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
@@ -36,6 +38,17 @@ public class CurrentSongActivity extends AppCompatActivity {
         block here is just to point out that an OnClickListener would have to be set on the play and the stop buttons
         (id's: button_play, button_stop), respectively, for the app to play and stop playing music.
         */
+
+        // Hooking up the return to menu button to get user back to main activity from currently played song
+        Button returnToMenuButton = (Button) findViewById(R.id.button_return_to_menu);
+        returnToMenuButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent returnToMainActivity = new Intent(CurrentSongActivity.this, MainActivity.class);
+                startActivity(returnToMainActivity);
+            }
+        });
     }
 }
+
 

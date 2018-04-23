@@ -31,5 +31,11 @@ public class CurrentSongActivity extends AppCompatActivity {
                 finish();
             }
         });
+
+        /* Similarly, there would be code here to play music, but since the app is not required to play music, this comment
+        block here is just to point out that an OnClickListener would have to be set on the play and the stop buttons
+        (id's: button_play, button_stop), respectively, for the app to play and stop playing music.
+        */
     }
 }
+

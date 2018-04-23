@@ -44,6 +44,7 @@
 
             <!-- Stop icon made by " Smashicons" at www.flaticon.com -->
             <ImageButton
+                android:id="@+id/button_stop"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="@dimen/padding_horizontal"
@@ -51,6 +52,7 @@
 
             <!-- Play icon made by "Freepik" at www.flaticon.com -->
             <ImageButton
+                android:id="@+id/button_play"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="@dimen/padding_horizontal"

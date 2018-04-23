@@ -39,7 +39,7 @@ public class NatureActivity extends AppCompatActivity {
          */
         listView.setBackground(ContextCompat.getDrawable(this, R.drawable.rain));
 
-        /* Hooking up the return button */
+        // Hooking up the return button
         ImageButton returnButton = (ImageButton) findViewById(R.id.button_return);
         returnButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -50,3 +50,5 @@ public class NatureActivity extends AppCompatActivity {
         });
     }
 }
+
+

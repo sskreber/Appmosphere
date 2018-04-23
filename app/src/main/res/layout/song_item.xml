@@ -16,8 +16,9 @@
     <TextView
         android:id="@+id/songTitle_text_view"
         style="@style/Playlist"
+        android:scrollHorizontally="true"
         android:textStyle="italic"
-        tools:text="song title"
-        android:scrollHorizontally="true"/>
+        tools:text="song title" />
 
 </LinearLayout>
+
